@@ -50,13 +50,14 @@ a{
 /* ? header */
 
 #nav{
+    padding: 20px 0;
+    box-shadow: 0 2px 5px #000;
+    
     justify-content: space-between;
     align-items: center;
-    padding: 40px 0;
-    box-shadow: 0 2px 5px #000;
+    
     position: sticky;
     top: 0;
     left: 0;
-    height: 100px;
 }
 
