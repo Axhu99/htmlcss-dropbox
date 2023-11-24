@@ -59,9 +59,15 @@ a{
 
 /* container */
 
-.container{
+.container.jumbotron{
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.container-main{
+    max-width: 1000px;
+    margin: 100px auto;
+    height: 500px;
 }
 
 /* ? header */
@@ -79,6 +85,8 @@ a{
 }
 
 /* ? main */
+
+/* ! jumbotron */
 
 .jumbotron{
     flex-wrap: wrap;
@@ -101,4 +109,48 @@ a{
 
 .jumbotron-img{
     flex-basis: 70%;
+}
+
+/* ! business plans */
+
+.plans{
+    flex-wrap: wrap;
+    margin: 40px 0;
+    margin: 0 -20px;
+}
+
+.small-card{
+    flex-basis: calc(100% / 3 - 120px / 3);
+    border: 1px solid black;
+    margin: 0 20px;
+}
+
+.icon{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.card-description{
+    padding: 40px;
+    flex-basis: 70%;
+}
+
+.list-plan li::before {
+    content: "\2714";
+    color: #0061FF; 
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+}
+
+.big-card{
+    flex-basis: 100%;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.card-button{
+    flex-basis: 30%;
 }
