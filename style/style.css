@@ -22,12 +22,15 @@ img{
 }
 
 ul{
-    list-style-type: none;
-   
+    list-style-type: none;  
 }
 
 a{
     text-decoration: none;
+}
+
+.border{
+    border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 /* button */
@@ -52,6 +55,7 @@ a{
 .bcg-jumbotron{
     background-color: #B4D0E7;
     height: 740px;
+    margin-bottom: 200px;
 }
 
 /* container */
@@ -123,6 +127,14 @@ a{
 }
 
 /* ! business plans */
+.business-plans > h2{
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
+.button-check{
+    margin-bottom: 40px;
+}
 
 .plans{
     flex-wrap: wrap;
@@ -132,21 +144,46 @@ a{
 
 .small-card{
     flex-basis: calc(100% / 3 - 120px / 3);
-    border: 1px solid black;
     margin: 0 20px;
 }
 
 .icon{
-    border-bottom: 1px solid black;
     text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     padding: 10px 0;
 }
 
 .card-description{
-    padding: 40px;
+    padding: 40px 30px;
     flex-basis: 70%;
 }
 
+.title-card{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.price{
+    display: block;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subscription-duration{
+    display: block;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.9rem;
+    margin-bottom: 40px;
+}
+
+.card-description ul > li{
+    margin-bottom: 20px;
+}
+
+.list-plan{
+    margin-left: 1em;
+}
 .list-plan li::before {
     content: "\2714";
     color: #0061FF; 
@@ -158,7 +195,6 @@ a{
 
 .big-card{
     flex-basis: 100%;
-    border: 1px solid black;
     margin: 20px;
 }
 
@@ -175,8 +211,7 @@ a{
 
 .column{
     flex-basis: calc(100% / 3);
-    padding: 0 20px;
-    border: 1px solid black;
+    padding: 20px;
 }
 
 /* ! Company */
@@ -194,7 +229,7 @@ a{
 
 .logo-company{
     flex-basis: 50%;
-    padding: 20px;
+    scale: 0.5;
     
 }
 
