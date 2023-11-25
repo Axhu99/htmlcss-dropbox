@@ -154,3 +154,16 @@ a{
 .card-button{
     flex-basis: 30%;
 }
+
+/* ! Dropbox business */
+
+
+.row{
+   flex-wrap: wrap; 
+}
+
+.column{
+    flex-basis: calc(100% / 3);
+    padding: 0 20px;
+    border: 1px solid black;
+}
