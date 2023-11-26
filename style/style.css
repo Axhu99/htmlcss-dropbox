@@ -249,6 +249,13 @@ a{
     font-size: 1rem;
     line-height: 22px;
 }
+
+/* ! small-box */
+
+.small-box > h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
 /* ! Company */
 
 .box-company{
