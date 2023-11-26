@@ -203,6 +203,26 @@ a{
     text-align: center;
 }
 
+/* ! box */
+
+.box-img{
+    flex-basis: 60%;
+}
+
+.box-description{
+    flex-basis: 40%;
+    padding: 40px;
+}
+
+.box-description > h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.box-description > p{
+    font-size: 1rem;
+    line-height: 22px;
+}
 /* ! Dropbox business */
 
 .row{
