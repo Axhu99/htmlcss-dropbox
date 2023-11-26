@@ -33,6 +33,14 @@ a{
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
+.padding-20{
+    padding: 20px;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
 /* button */
 
 .button{
@@ -58,6 +66,41 @@ a{
     margin-bottom: 200px;
 }
 
+.bgc-lightgreen{
+    background-color: #A2D39B;
+}
+
+.bgc-bordeaux{
+    background-color: #61082B;
+}
+
+.bgc-skyblu{
+    background-color: #0093CE;
+}
+
+.bgc-orange{
+    background-color: #FF1C1C;
+}
+
+.bgc-red{
+    background-color: #D5001F;
+}
+
+.bgc-lightblu{
+    background-color: #B4D0E7;
+}
+
+.bgc-blu{
+    background-color: #0D2481;
+}
+
+.bgc-yellow{
+    background-color: #FFD830;
+}
+
+.bgc-grey{
+    background-color: #F5F5F5;
+}
 /* container */
 
 .container.jumbotron{
@@ -265,18 +308,32 @@ a{
 
 .company{
     flex-basis: calc(100% / 3);
-    border: 1px solid black;
     flex-wrap: wrap;
 }
 
 .logo-company{
     flex-basis: 50%;
-    scale: 0.5;
-    
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    height: 50%;
 }
 
 .your-company{
     flex-basis: 100%;
+}
+
+.your-company-title{
+    flex-basis: 70%;
+    font-size: 30px;
+}
+
+.your-company-title > h2{
+    color: #61082B;
+}
+.your-company-button{
+    flex-basis: 30%;
+    text-align: end;
 }
 
 /* ? Hover */
