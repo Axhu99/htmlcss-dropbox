@@ -225,6 +225,11 @@ a{
 }
 /* ! Dropbox business */
 
+.dropbox-business > h2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
 .row{
     flex-wrap: wrap;
     margin: 0px -20px;
@@ -235,6 +240,15 @@ a{
     padding: 20px;
 }
 
+.column > h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.column > p{
+    font-size: 1rem;
+    line-height: 22px;
+}
 /* ! Company */
 
 .box-company{
