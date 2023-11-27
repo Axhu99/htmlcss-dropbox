@@ -341,7 +341,7 @@ a.decoration{
 
 /* ! small-box */
 
-.small-box > h2{
+.small-box h2{
     font-size: 50px;
     margin-bottom: 30px;
 }
