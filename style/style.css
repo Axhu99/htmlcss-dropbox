@@ -50,6 +50,10 @@ a.decoration{
     padding: 20px;
 }
 
+.padding-40{
+    padding: 40px;
+}
+
 /* ! margin */
 
 .margin-b-30{
@@ -74,10 +78,15 @@ a.decoration{
     text-align: center;
 }
 
-.button.white{
+.button.white-border{
     color: black;
     background-color: white;
     border: 1px solid black;
+}
+
+.button.white{
+    color: black;
+    background-color: white;
 }
 
 /* background */
@@ -354,16 +363,25 @@ a.decoration{
 }
 
 .company{
-    flex-basis: calc(100% / 3);
+    width: calc(99vw / 3);
+    height: calc(100vw / 3);
     flex-wrap: wrap;
 }
 
+.company > img{
+    width: 50%;
+}
+
 .logo-company{
-    flex-basis: 50%;
+    width: 50%;
+    height: 50%;
     justify-content: center;
     align-items: center;
-    padding: 80px;
-    height: 300px;
+}
+
+.logo-company img{
+    width: 50%;
+    filter: invert(1);
 }
 
 .your-company{
@@ -372,12 +390,13 @@ a.decoration{
 
 .your-company-title{
     flex-basis: 70%;
-    font-size: 30px;
+    font-size: 25px;
 }
 
-.your-company-title > h2{
+.your-company-title h2{
     color: #61082B;
 }
+
 .your-company-button{
     flex-basis: 30%;
     text-align: end;
