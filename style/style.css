@@ -404,23 +404,26 @@ a.decoration{
 
 /* ! FAQ */
 
-.row-faq{
+.faq h2{
     border-bottom: 1px solid black;
-    padding: 20px 0;
+    font-size: 30px;
+    padding: 50px 0;
 }
 
 .quest{
     justify-content: space-between;
     flex-wrap: wrap;
+    border-bottom: 1px solid black;
+    padding: 40px 0;
 }
 
-.title-quest{
-margin-bottom: 30px;
-    
+.quest .fa-caret-down{
+    margin-right: 20px;
 }
 
 .text-response{
     display: none;
+    margin-top: 20px;
 }
 
 .quest:hover .text-response{
