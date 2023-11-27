@@ -29,6 +29,12 @@ a{
     text-decoration: none;
 }
 
+a.decoration{
+    margin: 5px;
+    color: blue;
+    text-decoration: underline;
+}
+
 .border{
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
@@ -50,6 +56,10 @@ a{
     margin-bottom:  30px;
 }
 
+.margin-t-50{
+    margin-top:  50px;
+}
+
 /* button */
 
 .button{
@@ -57,6 +67,11 @@ a{
     color: #fff;
     background-color: #0061FF;
     display: inline-block;
+}
+
+.button.block{
+    display: block;
+    text-align: center;
 }
 
 /* background */
@@ -134,6 +149,7 @@ a{
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 .info-box{
@@ -178,13 +194,17 @@ a{
 }
 
 /* ! business plans */
-.business-plans > h2{
+.business-plans h2{
     font-size: 42px;
     margin-bottom: 40px;
 }
 
 .button-check{
     margin-bottom: 40px;
+}
+
+.button-check span{
+    margin-right: 20px;
 }
 
 .plans{
@@ -215,10 +235,10 @@ a{
 }
 
 .price{
-    display: block;
+    display: inline-block;
     font-size: 0.9rem;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .subscription-duration{
@@ -228,8 +248,18 @@ a{
     margin-bottom: 40px;
 }
 
-.card-description ul > li{
+.fa-ul{
+    margin-left: 20px;
+}
+
+.card-description li{
     margin-bottom: 20px;
+}
+
+.or{
+    display: inline-block;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);;
 }
 
 .list-plan{
@@ -252,6 +282,7 @@ a{
 .card-button{
     flex-basis: 30%;
     text-align: center;
+    padding: 20px;
 }
 
 /* ! box */
