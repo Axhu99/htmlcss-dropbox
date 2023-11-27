@@ -33,13 +33,21 @@ a{
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+/* ! padding */
+
 .padding-20{
     padding: 20px;
 }
 
-.center{
-    justify-content: center;
-    align-items: center;
+/* ! margin */
+
+.margin-b-30{
+    margin-bottom:  30px;
 }
 
 /* button */
@@ -139,7 +147,6 @@ a{
     font-size: 18px;
 }
 
-
 /* ? main */
 
 /* ! jumbotron */
@@ -156,7 +163,7 @@ a{
     margin-bottom: 50px;
 }
 
-.jumbotron-title > h1{
+.jumbotron-title h1{
     font-weight: 900;
 }
 
