@@ -71,6 +71,7 @@ a.decoration{
     color: #fff;
     background-color: #0061FF;
     display: inline-block;
+    
 }
 
 .button.block{
@@ -87,6 +88,14 @@ a.decoration{
 .button.white{
     color: black;
     background-color: white;
+}
+
+.button:hover{
+    box-shadow: 0 0 10px #0061FF;
+}
+
+.button.white-border:hover{
+    box-shadow: 0 0 10px black;
 }
 
 /* background */
@@ -155,8 +164,9 @@ a.decoration{
 /* ? header */
 
 #nav{
-    padding: 20px 10px;
+    /* padding: 20px 10px; */
     border-bottom: 1px solid #D1D9E1;
+    height: 100px;
     
     justify-content: space-between;
     align-items: center;
@@ -167,15 +177,29 @@ a.decoration{
     z-index: 1;
 }
 
-.info-box{
-    margin-left: 15px;
-}
-
-.info-box ul,
+/* .info-box ul,
 .login-box  ul{
     gap: 30px;
     align-items: center;
     font-size: 18px;
+} */
+
+.info-box, .login-box{
+    gap: 30px;
+}
+
+.info-box > *,
+.login-box > * {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    height: 100px;
+    justify-content: center;
+}
+
+.info-box div:hover,
+.login-box div:hover{
+    border-bottom: 1px solid black;
 }
 
 /* ? main */
