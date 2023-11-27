@@ -484,6 +484,10 @@ a.decoration{
     margin-bottom: 30px;
 }
 
+.cell-footer a:hover{
+    color: lightyellow;
+}
+
 .language *{
     color: white;
 }
