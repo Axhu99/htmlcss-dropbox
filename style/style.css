@@ -41,19 +41,16 @@ a{
     justify-content: center;
     align-items: center;
 }
+
 /* button */
 
 .button{
     padding: 10px 15px;
     color: #fff;
     background-color: #0061FF;
-    margin: 30px 0;
     display: inline-block;
 }
 
-.button.start{
-    margin: 0;
-}
 /* background */
 
 .bgc-nav{
@@ -120,7 +117,7 @@ a{
 /* ? header */
 
 #nav{
-    padding: 20px 0;
+    padding: 20px 10px;
     border-bottom: 1px solid #D1D9E1;
     
     justify-content: space-between;
@@ -135,8 +132,8 @@ a{
     margin-left: 15px;
 }
 
-.info-box > ul,
-.login-box > ul{
+.info-box ul,
+.login-box  ul{
     gap: 30px;
     align-items: center;
     font-size: 18px;
