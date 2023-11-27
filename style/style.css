@@ -399,8 +399,14 @@ a.decoration{
 .logo-company{
     width: 50%;
     height: 50%;
+    border: 5px solid transparent;
     justify-content: center;
     align-items: center;
+}
+
+.company .logo-company:hover{
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    scale: 1.2;
 }
 
 .logo-company img{
