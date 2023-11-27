@@ -299,6 +299,7 @@ a{
     font-size: 50px;
     margin-bottom: 30px;
 }
+
 /* ! Company */
 
 .box-company{
@@ -334,6 +335,31 @@ a{
 .your-company-button{
     flex-basis: 30%;
     text-align: end;
+}
+
+/* ! FAQ */
+
+.row-faq{
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+}
+
+.quest{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.title-quest{
+margin-bottom: 30px;
+    
+}
+
+.text-response{
+    display: none;
+}
+
+.quest:hover .text-response{
+    display: block;
 }
 
 /* ? Hover */
