@@ -441,7 +441,8 @@ a.decoration{
     flex-basis: 20%;
 }
 
-.cell-footer li{
+.cell-footer a{
+    display: inline-block;
     color: white;
     font-size: 1rem;
     margin-bottom: 20px;
@@ -451,4 +452,14 @@ a.decoration{
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 30px;
+}
+
+.language *{
+    color: white;
+}
+
+.language span{
+    display: inline-block;
+    padding-top: 40px;
+    border-top: 1px solid white;
 }
