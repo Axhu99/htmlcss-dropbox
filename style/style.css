@@ -406,7 +406,7 @@ a.decoration{
 
 .company .logo-company:hover{
     border: 5px solid rgba(255, 255, 255, 0.5);
-    scale: 1.2;
+    scale: 1.1;
 }
 
 .logo-company img{
