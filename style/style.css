@@ -74,6 +74,12 @@ a.decoration{
     text-align: center;
 }
 
+.button.white{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
 /* background */
 
 .bgc-nav{
@@ -296,14 +302,15 @@ a.decoration{
     padding: 40px;
 }
 
-.box-description > h3{
+.box-description h3{
     font-size: 25px;
     margin-bottom: 20px;
 }
 
-.box-description > p{
+.box-description p{
     font-size: 1rem;
     line-height: 22px;
+    margin-bottom: 30px;
 }
 /* ! Dropbox business */
 
